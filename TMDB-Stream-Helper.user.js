@@ -1,7 +1,9 @@
 // ==UserScript==
+// @updateURL   https://raw.githubusercontent.com/RizkyM2999/TMDB-Stream-Helper/refs/heads/main/TMDB-Stream-Helper.user.js
+// @downloadURL https://raw.githubusercontent.com/RizkyM2999/TMDB-Stream-Helper/refs/heads/main/TMDB-Stream-Helper.user.js
 // @name         TMDB Stream Helper
 // @namespace    https://rizkym.my.id
-// @version      1.4
+// @version      1.5
 // @description  Stream button (Menu konfigurasi Hold to Config)
 // @author       Rizky
 // @match        https://www.themoviedb.org/movie/*
