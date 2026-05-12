@@ -1,4 +1,6 @@
 // ==UserScript==
+// @updateURL   https://raw.githubusercontent.com/RizkyM2999/TMDB-Stream-Helper/refs/heads/main/PAHE-Stream-Helper.user.js
+// @downloadURL https://raw.githubusercontent.com/RizkyM2999/TMDB-Stream-Helper/refs/heads/main/PAHE-Stream-Helper.user.js
 // @name         Pahe Stream
 // @namespace    https://rizkym.my.id
 // @version      4.5
