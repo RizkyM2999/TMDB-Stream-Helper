@@ -3,8 +3,8 @@
 // @downloadURL https://raw.githubusercontent.com/RizkyM2999/TMDB-Stream-Helper/refs/heads/main/PAHE-Stream-Helper.user.js
 // @name         Pahe Stream
 // @namespace    https://rizkym.my.id
-// @version      4.5
-// @description  Pahe + Stream | Note: Hold to Config (Lang, Autoplay, Autonext)
+// @version      4.6
+// @description  Pahe + Stream | Note: Hold to Config (Lang, Autoplay, Autonext) + Parents Guide
 // @author       Rizky
 // @match        https://pahe.ink/*
 // @grant        none
@@ -114,6 +114,30 @@
             code.appendChild(br);
             code.appendChild(label);
             code.appendChild(link);
+
+            // ========== [ADDED] Parents Guide link ==========
+            const guideBr = document.createElement('br');
+            const guideLabel = document.createTextNode('Parents Guide ...: ');
+            const guideLink = document.createElement('a');
+            guideLink.href = `https://www.imdb.com/title/${imdbId}/parentalguide/`;
+            guideLink.target = '_blank';
+            guideLink.rel = 'noreferrer';
+            guideLink.style.cssText = `
+                color: #FFD700; 
+                text-decoration: none; 
+                font-family: "andale mono", "lucida console", monospace;
+                font-size: 11px;
+                font-weight: normal;
+                line-height: normal;
+                cursor: pointer;
+                user-select: none;
+            `;
+            guideLink.innerText = 'View';
+
+            code.appendChild(guideBr);
+            code.appendChild(guideLabel);
+            code.appendChild(guideLink);
+            // ==============================================
         });
     };
 
